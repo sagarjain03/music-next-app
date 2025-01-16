@@ -65,7 +65,7 @@ function UpcomingWebinars() {
             {
               title: webinar.title,
               description: webinar.description,
-              link: '/'
+              link: ''
             }
           ))}
           />
@@ -73,7 +73,7 @@ function UpcomingWebinars() {
 
         <div className="mt-10 text-center">
         <Button>
-        <Link href={"/"}
+        <Link href="#"
          
           >
             View All webinars
