@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 import Hero from './components/ui/Hero'
 import FeaturedCourses from './components/FeaturedCourses'
 import { StickyScrollRevealDemo } from './components/StickyScrollRevealDemo'
+import MovingCards from './components/MovingCards'
+import UpcomingWebinars from './components/UpcomingWebinars'
 
 
 const page = () => {
@@ -17,6 +18,8 @@ const page = () => {
     <FeaturedCourses/>
     <br />
     <StickyScrollRevealDemo/>
+    <MovingCards/>
+    <UpcomingWebinars/>
    </main>
     </div>
    
