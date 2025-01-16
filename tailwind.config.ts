@@ -65,13 +65,6 @@ const config: Config = {
             opacity: "0",
           },
         },
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      keyframes:{
         spotlight: {
           '0%': { opacity: '0', transform: 'translate(-72%, -62%) scale(0.5)' },
           '100%': { opacity: '1', transform: 'translate(-50%,-40%) scale(1)' },
@@ -81,7 +74,14 @@ const config: Config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
-      }
+
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+    
     },
   },
   plugins: [addVariablesForColors, addSvgPatterns],
